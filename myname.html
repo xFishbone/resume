@@ -4,29 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="myname.css">
 </head>
 <body>
-    <img src="https://sun105-2.userapi.com/impg/li6GtQEXkuhu5mQFB7jmMfTWVijFjJeROSPWUw/EjYuRt9kwEI.jpg?size=1620x2160&quality=96&sign=ad44abed6047d291884fe8e65a3f1765&type=album" width="300">
-    <h1>Ахиярдинов Камиль</h1>
-    <p>Хочу <strong><em>доказать себе</em></strong>, что смогу обучиться и найти работу!</p>
-    <h4><strong>СПИСОК СОЦИАЛЬНЫХ СЕТЕЙ</strong></h4>
-    <a href="https://vk.com/dj_fishbone" target="_blank">VK</a>
 
-    <a href="https://t.me/xFishbone" target="_blank">Telegram</a>
-    <h4>Мои хобби</h4>
-    <ol>
-        <li>Аниме</li>
-        <li>Игры</li>
-        <li>Живое общение</li>
-        <li>Изучение новой информации</li>
-    </ol>
-    <h4>Опыт работы</h4>
-    <table>
-        <thead>
+    <div class="info">
+        <img src="https://sun105-2.userapi.com/impg/li6GtQEXkuhu5mQFB7jmMfTWVijFjJeROSPWUw/EjYuRt9kwEI.jpg?size=1620x2160&quality=96&sign=ad44abed6047d291884fe8e65a3f1765&type=album" width="300">
+        
+        <div class="info-text">
+        <h1>Ахиярдинов Камиль</h1>
+            <div class="info_me">
+                <p>Хочу доказать себе, что смогу обучиться и найти работу!</p>
+            </div>
+                <div class="vk_tg">   
+                    <h4>СПИСОК СОЦИАЛЬНЫХ СЕТЕЙ</h4>
+                        <a href="https://vk.com/dj_fishbone" target="_blank" class="btn">VK</a>
+                        <br>
+                        <br>
+                        <br>
+                        <a href="https://t.me/xFishbone" target="_blank" class="btn">Telegram</a>
+                </div>
+            </div>
+    </div>
+                <br>
+    <div class="card_hobby">
+        <h4>Мои хобби</h4>
+            <ol class="list">
+                <li>Аниме</li>
+                <li>Игры</li>
+                <li>Живое общение</li>
+                <li>Изучение новой информации</li>
+            </ol>
+    </div>
+    <div class="card_experience"><h4>Опыт работы</h4>
+    <table class="table">
+        <!-- <thead>
             <th>Название</th>
             <th>Должность</th>
             <th>Год</th>
-        </thead>
+        </thead> -->
         <tbody>
         <tr>
             <td>ООО "Аква-Строй"</td>
@@ -50,19 +66,23 @@
         </tr>
         </tbody>
     </table>
-    <h4>Связаться со мной</h4>
-        <form>
-            <div>
+    </div>
+        <form class="form">
+            <h4>Связаться со мной</h4>
+            
+                <div class="form-row">
+            
+            <div class="form-group">
                 <label for="text">Ваше имя:</label>
                 <input type="text" id="text" placeholder="Введите имя">
             </div>
-            <div>
+            <div class="form-group">
                 <label for="email">Ваш email:</label>
                 <input type="email" id="email" placeholder="Введите email">
             </div>
-            <br>
+                </div>
 
-            <div>
+            <div class="form-group">
                 <label for="message">Ваше сообщение</label>
                 <br>
                 <textarea id="message" cols="33" role="25"></textarea>
